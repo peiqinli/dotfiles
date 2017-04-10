@@ -27,3 +27,44 @@ plugins=(autojump)
 
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 
+### fast edit zshrc file
+ ze(){
+	 vim ~/dotfiles/zshrc  # edit zshrc file
+ }
+
+ # -------------------------------------------------------------------
+ # Git
+ # -------------------------------------------------------------------
+ alias gam="git commit -a -m"
+ alias gc= "git checkout"
+ alias gs="git status"
+ alias gp='git push'
+ alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit "
+ alias gb='git branch'
+ alias gd='git diff' 
+ alias ghard='git reset --hard'
+
+# -------------------------------------------------------------------
+# Directory information
+# -------------------------------------------------------------------
+alias pwdc='pwd && pwd | pbcopy' #find current address and copy it
+
+
+# -------------------------------------------------------------------
+# Directory movement
+# -------------------------------------------------------------------
+alias up="cd .."
+alias bk="cd -"
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias godesk='cd ~/Desktop'
+
+### fast check my local ip address
+function myip(){
+myip="$(ifconfig | grep 'inet.*netmask.*broadcast')"
+lanip="$(echo $myip | awk '{print $2}')"
+publicip="$(echo $myip | awk '{print $6}')"
+echo 'lan ip '$lanip
+echo 'public IP: '$publicip
+}
