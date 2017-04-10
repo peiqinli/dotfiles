@@ -1,0 +1,22 @@
+#-- START ZCACHE GENERATED FILE
+#-- GENERATED: Sun Apr  9 15:00:42 CDT 2017
+#-- ANTIGEN v1.4.1
+source "/Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git/plugins/git/git.plugin.zsh";
+source "/Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git/plugins/ruby/ruby.plugin.zsh";
+source "/Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git/plugins/gem/gem.plugin.zsh";
+source "/Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git/plugins/osx/osx.plugin.zsh";
+source "/Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-syntax-highlighting.git//zsh-syntax-highlighting.plugin.zsh";
+source "/Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-history-substring-search.git//zsh-history-substring-search.zsh";
+source "/Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-tarruda-SLASH-zsh-autosuggestions.git//zsh-autosuggestions.plugin.zsh";
+fpath+=(/Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git/plugins/git /Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git/plugins/ruby /Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git/plugins/gem /Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh.git/plugins/osx /Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-syntax-highlighting.git// /Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-zsh-users-SLASH-zsh-history-substring-search.git// /Users/lipeiqin/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-tarruda-SLASH-zsh-autosuggestions.git//);
+unset __ZCACHE_FILE_PATH;
+export _ANTIGEN_BUNDLE_RECORD="
+https://github.com/robbyrussell/oh-my-zsh.git plugins/git plugin true 
+https://github.com/robbyrussell/oh-my-zsh.git plugins/ruby plugin true 
+https://github.com/robbyrussell/oh-my-zsh.git plugins/gem plugin true 
+https://github.com/robbyrussell/oh-my-zsh.git plugins/osx plugin true 
+https://github.com/zsh-users/zsh-syntax-highlighting.git / plugin true 
+https://github.com/zsh-users/zsh-history-substring-search.git / plugin true 
+https://github.com/tarruda/zsh-autosuggestions.git / plugin true " _ZCACHE_CACHE_LOADED=true _ZCACHE_CACHE_VERSION=v1.4.1
+#-- END ZCACHE GENERATED FILE
+
