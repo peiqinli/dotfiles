@@ -36,13 +36,6 @@ plugins=(autojump)
  # Git
  # -------------------------------------------------------------------
  alias gam="git commit -a -m"
- alias gc= "git checkout"
- alias gs="git status"
- alias gp='git push'
- alias gl="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit "
- alias gb='git branch'
- alias gd='git diff' 
- alias ghard='git reset --hard'
 
 # -------------------------------------------------------------------
 # Directory information
