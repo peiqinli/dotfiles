@@ -1,3 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/Users/lipeiqin/.ssh'
+let g:netrw_dirhist_2='/Users/lipeiqin/.rvm'
+let g:netrw_dirhist_3='/Users/lipeiqin/Documents/cratebind/beacon'
+let g:netrw_dirhist_4='/Users/lipeiqin/Documents/cratebind/beacon/public'
+let g:netrw_dirhist_5='/Users/lipeiqin'
