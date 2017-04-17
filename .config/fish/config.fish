@@ -3,9 +3,9 @@ set -q XDG_DATA_HOME
   and set -gx OMF_PATH "$XDG_DATA_HOME/omf"
   or set -gx OMF_PATH "$HOME/.local/share/omf"
 
-set -g Z_SCRIPT_PATH  "$HOME/.z"
+alias ef 'vim ~/.config/fish/config.fish'
+
 
 # Load Oh My Fish configuration.
 source $OMF_PATH/init.fish
-
 

@@ -1,0 +1,1 @@
+/Users/lipeiqin/.config/fisherman/getopts/getopts.fish
