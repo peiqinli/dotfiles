@@ -54,10 +54,14 @@ function gd
 end
 
 # publish branch to remote repo
-function gpub
-  git push -u origin (gbranch)
+function ggpush
+  git push origin (gbranch)
 end
 
+# pull branch to local
+function ggpull
+  git pull origin (gbranch)
+end
 # open url to github repo
 function gopen
   open (_getRemoteBranchUrl)
