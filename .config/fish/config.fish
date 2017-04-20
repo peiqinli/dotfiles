@@ -1,7 +1,9 @@
+
 # Path to Oh My Fish install.
 set -q XDG_DATA_HOME
   and set -gx OMF_PATH "$XDG_DATA_HOME/omf"
   or set -gx OMF_PATH "$HOME/.local/share/omf"
+
 
 alias ef 'vim ~/.config/fish/config.fish'
 ##----GIT------
@@ -27,6 +29,8 @@ alias gri='git rebase -i'
 alias gst='git stash'
 alias gsta='git stash apply'
 alias gunstage='git reset HEAD'
+##-----RVM--------
+alias rgu='rvm gemset use'
 
 # checkout pull request
 function gcopr
