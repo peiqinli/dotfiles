@@ -30,7 +30,7 @@ alias gsta='git stash apply'
 alias gunstage='git reset HEAD'
 ##-----RVM--------
 alias rgu='rvm gemset use'
-
+alias irb='pry'
 # checkout pull request
 function gcopr
   git fetch origin pull/$argv/head:pr-$argv ;and git checkout pr-$argv;
