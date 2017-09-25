@@ -1,10 +1,19 @@
 
 # Path to Oh My Fish install.
+
+export NVM_DIR="$HOME/.nvm"
+. "/usr/local/opt/nvm/nvm.sh"
+
+
 set -q XDG_DATA_HOME
   and set -gx OMF_PATH "$XDG_DATA_HOME/omf"
   or set -gx OMF_PATH "$HOME/.local/share/omf"
 
 alias ef 'vim ~/.config/fish/config.fish'
+
+
+
+
 ##----GIT------
 alias gs='clear ;and git status'
 alias gb='git branch'
@@ -199,3 +208,4 @@ end
 # Load Oh My Fish configuration.
 source $OMF_PATH/init.fish
 
+status --is-interactive; and source (nodenv init -|psub)
